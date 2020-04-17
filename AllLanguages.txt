@@ -1,0 +1,12 @@
+Language  data-language Parameter
+English in UK 	en-GB 
+English in US en-US 
+English in Australia  en-AU 
+English in Canada	en-CA 
+English in India	en-IN 
+French  	fr-FR 
+German 	de-DE 
+Italian 	it-IT 
+Japanese 	ja-JP 
+Korean 	ko-KR 
+Spanish 	es-ES 
