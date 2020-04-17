@@ -29,3 +29,45 @@ Privacy information can be found at https://privacy.microsoft.com/en-us/
 
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
+
+## Widget examples
+
+<b>Widget Default</b>
+```
+<div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+<b>Widget with only Map</b>
+```
+<div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-latlon="48.84,-43.59"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+
+<b>Widget with only Trends</b>
+```
+<div class="bingwidget" data-type="covid19_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+<b>Widget with Stats and Map</b>
+```
+<div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+
+<b>Widget with Stats and Trends</b>
+```
+<div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York" data-location-latlon="48.84,-43.59"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+
+
