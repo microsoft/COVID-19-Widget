@@ -1,0 +1,14 @@
+Country 	data-market Parameter
+Australia 	en-AU 
+Brazil 	pt-BR 
+Canada 	en-CA 
+Canada 	fr-CA 
+China 	zh-CN 
+France 	fr-FR 
+Germany 	de-DE 
+India 	en-IN 
+Italy 	it-IT 
+Japan 	ja-JP 
+Spain 	es-ES 
+UK 	en-GB 
+USA 	en-US 
