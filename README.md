@@ -5,9 +5,9 @@ As the coronavirus impacts the world, we recognize the need to share the latest 
 **By adding the widget to your site, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
 
 ## How can I implement the widget on my site?
-All widget configurations will have two lines of HTML code, a <div> including various parameters, and a <script> that you will simply need to add to your site. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. 
+You will simply need to add two lines of HTML code, a <div> including various widget parameters, and a <script>. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. 
 
-## What is the data-type parameter used for?
+## How do I select a widget configuration?
 You are able to select your widget configuration with the data-type parameter. We support the following values:
 
 | Description   | data-type Parameter |
@@ -20,11 +20,11 @@ You are able to select your widget configuration with the data-type parameter. W
 
 
 In addition to these data-type options, you can also stack multiple widget on top of each other by including multiple <div> lines and only one <script>. 
-
-
 	
-## What markets and languages does the widget support?
-The data-market and data-language parameters can be customized using these values:
+We are working on an additional data-type that will allow further module customization, but it is not currently available. This will allow you to have multiple sets of the three module types. The documentation will be updated with further instructions when it's available. 
+
+## How do I select the market and language?
+The data-market and data-language parameters control the market and language of the widget respectively. The data-market parameter controls the country/region the widget will optimize for. The data-language parameter controls the UI display language in which the widget will display the UI string resources. Typically you will have the data-market and data-language parameters set to the same parameter value, however, there are cases where they would differ. For example, you can have a user in United States who speaks Spanish. In this case you can set the data-market to en-US and the data-language to es-ES. We support the following values for ata-market and data-language:
 
 | Country   | data-market Parameter |
 | --------- |:---------------------:|
@@ -36,6 +36,7 @@ The data-market and data-language parameters can be customized using these value
 | India | en-IN |
 | Italy | it-IT |
 | Japan | ja-JP |
+| South Korea | ko-KR |
 | Spain | es-ES |
 | UK | en-GB |
 | US | en-US |
@@ -44,12 +45,13 @@ The data-market and data-language parameters can be customized using these value
   
 | Language   | data--language Parameter |
 | --------- |:---------------------:|
-| English in | Australia	en-AU |
+| English in Australia | en-AU |
 | English in Canada	| en-CA |
 | English in India	| en-IN |
 | English in | UK 	en-GB |
 | English in | US	en-US | 
 | French  | 	fr-FR |
+| French in Canada  | 	fr-CA |
 | German | 	de-DE |
 | Italian | 	it-IT |
 | Japanese | 	ja-JP |
@@ -58,14 +60,11 @@ The data-market and data-language parameters can be customized using these value
 
 
 ## How do I specify a location for the widget to load?
-The data-location-id id and data-location-latlon are two options you have for specifying which location the widget will load data for. Note that currently only the data-location-id id option is supported. Support for data-location-latlon will be added soon. You only need to set one location parameter, either data-location-id or data-location-latlon. If you set both parameters, the data-location-id will take precedence. When no location is specified, the default data shown is global. 
-The data-location-id allows you to set location following the format of “/Country/Region.” There are over 3,000 possible values which can be found in the AllLocation.txt file on the widget GitHub page. 
-The data-location-latlon allows you to set location by the latitude and longitude values. Note that data-location-latlon is not yet supported. 
+The data-location-id allows you to set location following the format of “/Country/Region.” There are hunderds of valid combinations which can be found in the AllLocation.txt file on the widget GitHub page. 
 
-## What else can I customize on the widget?
-We are working on an additional data-type that will allow further module customization, but it is not currently available. This will allow you to have multiple sets of the three module types. The documentation will be updated with further instructions when it's available. 
+In the future we plan to also support location selection by latitude and longitude values. 
 
-
+**By adding the widget to your site, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
 
 ## Widget examples
 
