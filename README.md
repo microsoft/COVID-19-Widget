@@ -2,7 +2,7 @@
 # Bing COVID-19 Widget 
 As the coronavirus impacts the world, we recognize the need to share the latest information outside of Bing. This widget will allow any site to easily add an outbreak map, the latest case counts, and a chart displaying the spread over time. These elements are modular, giving sites the ability to customize them. Learn more on how to embed and customize the widget for your needs below.  
 
-**By adding the widget to your site, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
+**By using the widget, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
 
 ## How can I embed the widget on my site?
 You will simply need to add two lines of HTML code, a ```<div>``` including various widget parameters, and a ```<script>```. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. 
@@ -66,7 +66,7 @@ In the future we also plan to support location selection by latitude and longitu
 
 ## Widget examples
 
-**By adding the widget to your site, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
+**By using the widget, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
 
 
 ### Widget Default
@@ -141,6 +141,6 @@ Stats and Trends widget example specifying location of Texas. See it live [here]
 ## How can I report issues I have found with the widget?
 Please email 
 
-## Know Issues:
-..*
+## Known Issues:
+..* The “Powered by Bing” and “Explore more on Covid-19 tracker” are new additions to the wisget and the strings ares still being translated into the languages we support. 
 
