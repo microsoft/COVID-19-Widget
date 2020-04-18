@@ -61,7 +61,7 @@ The ```data-market``` and ```data-language``` parameters control the market and 
 
 
 ## How do I specify a location for the widget to load?
-The ```data-location-id``` parameter allows you to set location based on a set of available ```“/Country/Region"``` combinations. A list of the supported locations is available in the [AllLocation.txt file](../master/AllLocation.txt). If no ```data-location-id``` is set, the default is the global view. You can also select a global view for the data-location-id parameter with a vlaue of ```"/"```. 
+The ```data-location-id``` parameter allows you to set location based on a set of available ```“/Country/Region"``` combinations. A list of the supported locations is available in the [AllLocations.txt file](../master/AllLocations.txt). If no ```data-location-id``` is set, the default is the global view. You can also select a global view for the data-location-id parameter with a vlaue of ```"/"```. 
 
 In the future we also plan to support location selection by latitude and longitude values and will update this readme once it is available. 
 
@@ -140,8 +140,15 @@ Stats and Trends widget example specifying location of Texas. See it live [here]
 ```
 
 ## How can I report issues I have found with the widget?
-Please email 
+Please email bingcovidwidget@microsoft.com with any issue reports. 
 
 ## Known Issues:
 The “Powered by Bing” and “Explore more on Covid-19 tracker” are new additions to the wisget and the strings ares still being translated into the languages we support. 
+
+## Where is the widget data from and how often does it update?
+The widget refreshes approximately every ten minutes with data from an aggregate of [sources](https://help.bing.microsoft.com/#apex/18/en-us/10024) Bing is consuming. Data may not change with every refresh. 
+
+## Can I download the source data?
+Bing is making our COVID-19 available for educational and academic purposes. Get the data and learn more at the [Bing COVID-19 Data GitHub page](https://github.com/microsoft/Bing-COVID-19-Data). 
+
 
