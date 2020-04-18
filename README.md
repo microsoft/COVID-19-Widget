@@ -2,57 +2,13 @@
 # Bing COVID-19 Widget 
 As the coronavirus impacts the world, we recognize the need to share the latest information outside of Bing. This widget will allow any site to easily add an outbreak map, the latest case counts, and a chart displaying the spread over time. These elements are modular, giving sites the ability to customize them. 
 
-To add the widget to your site, you must first agree to the terms of use [listed here](../blob/master/LICENSE)
-
+**By adding the widget to your site, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
 
 ## How can I implement the widget on my site?
-To add the widget to your site, you must first agree to the terms of use here. Then you'll just need to add two lines of HTML code. All widget configurations will have two lines of HTML code, a <div> including various parameters, and a <script>. 
-
-## Widget examples
-
-<b>Widget Default</b>
-```
-<div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
-  
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-```
-
-<b>Widget with only Map</b>
-```
-<div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-latlon="48.84,-43.59"></div>
-  
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-```
-
-
-<b>Widget with only Trends</b>
-```
-<div class="bingwidget" data-type="covid19_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
-  
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-```
-
-<b>Widget with Stats and Map</b>
-```
-<div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York"></div>
-  
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-```
-
-
-<b>Widget with Stats and Trends</b>
-```
-<div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York" data-location-latlon="48.84,-43.59"></div>
-  
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-```
-
-
-
-
+All widget configurations will have two lines of HTML code, a <div> including various parameters, and a <script> that you will simply need to add to your site. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. 
 
 ## What is the data-type parameter used for?
-The data-type parameter sets the widget configuration. There are five options:
+You are able to select your widget configuration with the data-type parameter. We support the following values:
 
 | Description   | data-type Parameter |
 | --------- |:---------------------:|
@@ -110,5 +66,43 @@ The data-location-latlon allows you to set location by the latitude and longitud
 We are working on an additional data-type that will allow further module customization, but it is not currently available. This will allow you to have multiple sets of the three module types. The documentation will be updated with further instructions when it's available. 
 
 
-All widget configurations will have two lines of HTML code, a <div> including various parameters, and a <script>.
+
+## Widget examples
+
+<b>Widget Default</b>
+```
+<div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+<b>Widget with only Map</b>
+```
+<div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-latlon="48.84,-43.59"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+
+<b>Widget with only Trends</b>
+```
+<div class="bingwidget" data-type="covid19_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+<b>Widget with Stats and Map</b>
+```
+<div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+
+<b>Widget with Stats and Trends</b>
+```
+<div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York" data-location-latlon="48.84,-43.59"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
 
