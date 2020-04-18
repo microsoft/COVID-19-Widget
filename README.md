@@ -4,7 +4,51 @@ As the coronavirus impacts the world, we recognize the need to share the latest 
 
 To add the widget to your site, you must first agree to the terms of use [listed here](../blob/master/LICENSE)
 
-All widget configurations will have two lines of HTML code, a <div> including various parameters, and a <script>.
+
+## How can I implement the widget on my site?
+To add the widget to your site, you must first agree to the terms of use here. Then you'll just need to add two lines of HTML code. All widget configurations will have two lines of HTML code, a <div> including various parameters, and a <script>. 
+
+## Widget examples
+
+<b>Widget Default</b>
+```
+<div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+<b>Widget with only Map</b>
+```
+<div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-latlon="48.84,-43.59"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+
+<b>Widget with only Trends</b>
+```
+<div class="bingwidget" data-type="covid19_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+<b>Widget with Stats and Map</b>
+```
+<div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+
+<b>Widget with Stats and Trends</b>
+```
+<div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York" data-location-latlon="48.84,-43.59"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+
+
 
 
 ## What is the data-type parameter used for?
@@ -62,50 +106,9 @@ The data-location-id id and data-location-latlon are two options you have for sp
 The data-location-id allows you to set location following the format of “/Country/Region.” There are over 3,000 possible values which can be found in the AllLocation.txt file on the widget GitHub page. 
 The data-location-latlon allows you to set location by the latitude and longitude values. Note that data-location-latlon is not yet supported. 
 
-What else can I customize on the widget?
+## What else can I customize on the widget?
 We are working on an additional data-type that will allow further module customization, but it is not currently available. This will allow you to have multiple sets of the three module types. The documentation will be updated with further instructions when it's available. 
 
 
-
-
-## Widget examples
-
-<b>Widget Default</b>
-```
-<div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
-  
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-```
-
-<b>Widget with only Map</b>
-```
-<div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-latlon="48.84,-43.59"></div>
-  
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-```
-
-
-<b>Widget with only Trends</b>
-```
-<div class="bingwidget" data-type="covid19_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
-  
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-```
-
-<b>Widget with Stats and Map</b>
-```
-<div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York"></div>
-  
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-```
-
-
-<b>Widget with Stats and Trends</b>
-```
-<div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York" data-location-latlon="48.84,-43.59"></div>
-  
-<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
-```
-
-
+All widget configurations will have two lines of HTML code, a <div> including various parameters, and a <script>.
 
