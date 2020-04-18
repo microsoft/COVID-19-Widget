@@ -20,8 +20,8 @@ You are able to select your widget configuration with the data-type parameter. W
 
 
 In addition to these data-type options, you can also stack multiple widget on top of each other by including multiple <div> lines and only one <script>. 
-	
-We are working on an additional data-type that will allow further module customization, but it is not currently available. This will allow you to have multiple sets of the three module types. The documentation will be updated with further instructions when it's available. 
+
+In the future we plan to support additional configuration options and will update the GitHub with any
 
 ## How do I select the market and language?
 The data-market and data-language parameters control the market and language of the widget respectively. The data-market parameter controls the country/region the widget will optimize for. The data-language parameter controls the UI display language in which the widget will display the UI string resources. Typically you will have the data-market and data-language parameters set to the same parameter value, however, there are cases where they would differ. For example, you can have a user in United States who speaks Spanish. In this case you can set the data-market to en-US and the data-language to es-ES. We support the following values for ata-market and data-language:
@@ -60,9 +60,9 @@ The data-market and data-language parameters control the market and language of 
 
 
 ## How do I specify a location for the widget to load?
-The data-location-id allows you to set location following the format of “/Country/Region.” There are hunderds of valid combinations which can be found in the AllLocation.txt file on the widget GitHub page. 
+The data-location-id parameter allows you to set location based on a set of available “/Country/Region" combinations. A list of the supported locations is available in the [AllLocation.txt file](../blob/master/AllLocation.txt). If no data-location-id is set, the default is the global view. You can also select a global view for the data-location-id parameter with a vlaue of "/". 
 
-In the future we plan to also support location selection by latitude and longitude values. 
+In the future we also plan to support location selection by latitude and longitude values and will update this readme once it is available. 
 
 **By adding the widget to your site, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
 
@@ -72,14 +72,14 @@ In the future we plan to also support location selection by latitude and longitu
 
 
 ### Widget Default
-See it live [here]()
+See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/78/)
 ```
 <div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
 
-Default widget example setting language and market to Japanese in Japan. See it live [here]()
+Default widget example setting language and market to Japanese in Japan. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/77/)
 ```
 <div class="bingwidget" data-type="covid19" data-market="ja-jp" data-language="ja-jp"></div>
   
@@ -88,7 +88,7 @@ Default widget example setting language and market to Japanese in Japan. See it 
 
 ### Widget with only Map
 
-See it live [here]()
+See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/74/)
 
 ```
 <div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us"></div>
@@ -96,7 +96,7 @@ See it live [here]()
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
 
-Map only widget example specifying location of Italy. See it live [here]()
+Map only widget example specifying location of Italy. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/73/)
 ```
 <div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us" data-location-id="/Italy"></div>
   
@@ -104,7 +104,7 @@ Map only widget example specifying location of Italy. See it live [here]()
 ```
 
 ### Widget with only Trends
-See it live [here]()
+See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/70/)
 ```
 <div class="bingwidget" data-type="covid19_trends" data-market="en-us" data-language="en-us"></div>
   
@@ -112,13 +112,13 @@ See it live [here]()
 ```
 
 ### Widget with Stats and Map
-See it live [here]()
+See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/66/)
 ```
 <div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
-Stats and Map widget example specifying location of United States. See it live [here]()
+Stats and Map widget example specifying location of United States. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/68/)
 ```
 <div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us" data-location-id="/United States"></div>
   
@@ -127,13 +127,13 @@ Stats and Map widget example specifying location of United States. See it live [
 
 
 ### Widget with Stats and Trends
-See it live [here]()
+See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/64/)
 ```
 <div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
-Stats and Trends widget example specifying location of Texas. See it live [here]()
+Stats and Trends widget example specifying location of Texas. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/63/)
 ```
 <div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us" data-location-id="/United States/Texas"></div>
   
