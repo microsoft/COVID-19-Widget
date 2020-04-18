@@ -26,7 +26,7 @@ In the future we plan to support additional configuration options and will updat
 ## How do I select the market and language?
 The ```data-market``` and ```data-language``` parameters control the market and language of the widget respectively. The market refer to the country/region the widget will optimize for. The language referes to the UI display language in which the widget will display the UI string resources. Typically you will have the  ```data-market``` and ```data-language``` set to the same parameter value, however, there are cases where they would differ. For example, you can have a user in United States who speaks Spanish. In this case you can set the ```data-market``` to en-US and the ```data-language``` to es-ES. We support the following values for  ```data-market``` and ```data-language```:
 
-| Country   |  ```data-market``` Parameter |
+| Country/Region   |  ```data-market``` Parameter |
 | --------- |:---------------------:|
 | Australia | en-AU                 |
 | Canada | en-CA |
@@ -41,7 +41,7 @@ The ```data-market``` and ```data-language``` parameters control the market and 
 | UK | en-GB |
 | US | en-US |
 
-* Markets with an asterik do not support the ```data-type``` of ```covid19_stats_trends``` currently. 
+* Markets with an asterisk (*) do not support the ```data-type``` of ```covid19_stats_trends``` currently. 
 
   
 | Language   |  ```data-language``` Parameter |
