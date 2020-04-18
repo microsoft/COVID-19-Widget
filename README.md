@@ -68,39 +68,56 @@ In the future we plan to also support location selection by latitude and longitu
 
 ## Widget examples
 
-<b>Widget Default</b>
+**Widget Default**
 ```
-<div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
+<div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
 
-<b>Widget with only Map</b>
+**Widget Default - specifying language and market to Japanese in Japan**
 ```
-<div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-latlon="48.84,-43.59"></div>
+<div class="bingwidget" data-type="covid19" data-market="ja-jp" data-language="ja-jp"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
 
-
-<b>Widget with only Trends</b>
+**Widget with only Map**
+See it live [here]()
 ```
-<div class="bingwidget" data-type="covid19_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget"></div>
+<div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
 
-<b>Widget with Stats and Map</b>
+**Widget with only Map - specifying location of Italy**
+See it live [here]()
 ```
-<div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York"></div>
+<div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us" data-location-id="/Italy"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
 
-
-<b>Widget with Stats and Trends</b>
+**Widget with only Trends**
+Se it live [here]()
 ```
-<div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us" data-aop="bingwidget" data-location-id="/United States/New York" data-location-latlon="48.84,-43.59"></div>
+<div class="bingwidget" data-type="covid19_trends" data-market="en-us" data-language="en-us"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+**Widget with Stats and Map - specifying location of United States**
+See it live [here]()
+```
+<div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us" data-location-id="/United States"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+
+**Widget with Stats and Trends, specifying location of Texas**
+See it live [here]()
+```
+<div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us" data-location-id="/United States/Texas"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
