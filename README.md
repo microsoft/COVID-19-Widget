@@ -5,12 +5,12 @@ As the coronavirus impacts the world, we recognize the need to share the latest 
 **By adding the widget to your site, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
 
 ## How can I implement the widget on my site?
-You will simply need to add two lines of HTML code, a <div> including various widget parameters, and a <script>. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. 
+You will simply need to add two lines of HTML code, a ```<div>``` including various widget parameters, and a ```<script>```. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. 
 
 ## How do I select a widget configuration?
 You are able to select your widget configuration with the data-type parameter. We support the following values:
 
-| Description   | data-type Parameter |
+| Description   | ```data-type``` Parameter |
 | --------- |:---------------------:|
 | Default – includes all three modules: Outbreak Map module, Trends Chart module, and Data Stats module | covid19 |
 | Map – includes only the Outbreak Map module | covid19_map |
@@ -19,14 +19,14 @@ You are able to select your widget configuration with the data-type parameter. W
 | Stats and Trends – includes the Data Stats module and Trends Chart module | covid19_stats_trends |
 
 
-In addition to these data-type options, you can also stack multiple widget on top of each other by including multiple <div> lines and only one <script>. 
+In addition to these ```data-type``` options, you can also stack multiple widget on top of each other by including multiple ```<div>``` lines and only one ```<script>```. 
 
 In the future we plan to support additional configuration options and will update the GitHub with any
 
 ## How do I select the market and language?
-The data-market and data-language parameters control the market and language of the widget respectively. The data-market parameter controls the country/region the widget will optimize for. The data-language parameter controls the UI display language in which the widget will display the UI string resources. Typically you will have the data-market and data-language parameters set to the same parameter value, however, there are cases where they would differ. For example, you can have a user in United States who speaks Spanish. In this case you can set the data-market to en-US and the data-language to es-ES. We support the following values for ata-market and data-language:
+The ```data-market``` and ```data-language``` parameters control the market and language of the widget respectively. The market refer to the country/region the widget will optimize for. The language referes to the UI display language in which the widget will display the UI string resources. Typically you will have the  ```data-market``` and ```data-language``` set to the same parameter value, however, there are cases where they would differ. For example, you can have a user in United States who speaks Spanish. In this case you can set the ```data-market``` to en-US and the ```data-language``` to es-ES. We support the following values for  ```data-market``` and ```data-language```:
 
-| Country   | data-market Parameter |
+| Country   |  ```data-market``` Parameter |
 | --------- |:---------------------:|
 | Australia | en-AU                 |
 | Canada | en-CA |
@@ -43,7 +43,7 @@ The data-market and data-language parameters control the market and language of 
 
 
   
-| Language   | data--language Parameter |
+| Language   |  ```data-language``` Parameter |
 | --------- |:---------------------:|
 | English in Australia | en-AU |
 | English in Canada	| en-CA |
@@ -60,7 +60,7 @@ The data-market and data-language parameters control the market and language of 
 
 
 ## How do I specify a location for the widget to load?
-The data-location-id parameter allows you to set location based on a set of available “/Country/Region" combinations. A list of the supported locations is available in the [AllLocation.txt file](../blob/master/AllLocation.txt). If no data-location-id is set, the default is the global view. You can also select a global view for the data-location-id parameter with a vlaue of "/". 
+The ```data-location-id``` parameter allows you to set location based on a set of available ```“/Country/Region"``` combinations. A list of the supported locations is available in the [AllLocation.txt file](../blob/master/AllLocation.txt). If no ```data-location-id``` is set, the default is the global view. You can also select a global view for the data-location-id parameter with a vlaue of ```"/"```. 
 
 In the future we also plan to support location selection by latitude and longitude values and will update this readme once it is available. 
 
