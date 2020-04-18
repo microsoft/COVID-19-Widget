@@ -79,9 +79,7 @@ See it live [here]()
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
 
-### Widget Default - specifying language and market to Japanese in Japan
-See it live [here]()
-
+Default widget example setting language and market to Japanese in Japan. See it live [here]()
 ```
 <div class="bingwidget" data-type="covid19" data-market="ja-jp" data-language="ja-jp"></div>
   
@@ -98,8 +96,7 @@ See it live [here]()
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
 
-Widget with only Map - specifying location of Italy
-See it live [here]()
+Map only widget example specifying location of Italy. See it live [here]()
 ```
 <div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us" data-location-id="/Italy"></div>
   
@@ -107,7 +104,7 @@ See it live [here]()
 ```
 
 ### Widget with only Trends
-Se it live [here]()
+See it live [here]()
 ```
 <div class="bingwidget" data-type="covid19_trends" data-market="en-us" data-language="en-us"></div>
   
@@ -121,8 +118,7 @@ See it live [here]()
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
-Widget with Stats and Map - specifying location of United States
-See it live [here]()
+Stats and Map widget example specifying location of United States. See it live [here]()
 ```
 <div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us" data-location-id="/United States"></div>
   
@@ -137,8 +133,7 @@ See it live [here]()
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
-Widget with Stats and Trends, specifying location of Texas
-See it live [here]()
+Stats and Trends widget example specifying location of Texas. See it live [here]()
 ```
 <div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us" data-location-id="/United States/Texas"></div>
   
