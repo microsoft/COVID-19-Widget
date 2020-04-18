@@ -2,10 +2,10 @@
 # Bing COVID-19 Widget 
 As the coronavirus impacts the world, we recognize the need to share the latest information outside of Bing. This widget will allow any site to easily add an outbreak map, the latest case counts, and a chart displaying the spread over time. These elements are modular, giving sites the ability to customize them. Learn more on how to embed and customize the widget for your needs below.  
 
-**By using the widget, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
+**By using the widget, you agree to be subject to the terms of use [listed here](../master/LICENSE)**
 
 ## How can I embed the widget on my site?
-You will simply need to add two lines of HTML code, a ```<div>``` including various widget parameters, and a ```<script>```. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. 
+You will simply need to add two lines of HTML code, a ```<div>``` including various widget parameters, and a ```<script>```. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. Note that the **Trends Chart Module** has limited market support at this time. 
 
 ## How do I select a widget configuration?
 You are able to select your widget configuration with the ```data-type``` parameter. We support the following values:
@@ -30,17 +30,18 @@ The ```data-market``` and ```data-language``` parameters control the market and 
 | --------- |:---------------------:|
 | Australia | en-AU                 |
 | Canada | en-CA |
-| Canada | fr-CA |
-| France | fr-FR |
-| Germany | de-DE |
+| Canada* | fr-CA |
+| France* | fr-FR |
+| Germany* | de-DE |
 | India | en-IN |
-| Italy | it-IT |
-| Japan | ja-JP |
-| South Korea | ko-KR |
-| Spain | es-ES |
+| Italy* | it-IT |
+| Japan* | ja-JP |
+| South Korea* | ko-KR |
+| Spain* | es-ES |
 | UK | en-GB |
 | US | en-US |
 
+* Markets with an asterik do not support the ```data-type``` of ```covid19_stats_trends``` currently. 
 
   
 | Language   |  ```data-language``` Parameter |
@@ -60,7 +61,7 @@ The ```data-market``` and ```data-language``` parameters control the market and 
 
 
 ## How do I specify a location for the widget to load?
-The ```data-location-id``` parameter allows you to set location based on a set of available ```“/Country/Region"``` combinations. A list of the supported locations is available in the [AllLocation.txt file](../blob/master/AllLocation.txt). If no ```data-location-id``` is set, the default is the global view. You can also select a global view for the data-location-id parameter with a vlaue of ```"/"```. 
+The ```data-location-id``` parameter allows you to set location based on a set of available ```“/Country/Region"``` combinations. A list of the supported locations is available in the [AllLocation.txt file](../master/AllLocation.txt). If no ```data-location-id``` is set, the default is the global view. You can also select a global view for the data-location-id parameter with a vlaue of ```"/"```. 
 
 In the future we also plan to support location selection by latitude and longitude values and will update this readme once it is available. 
 
@@ -142,5 +143,5 @@ Stats and Trends widget example specifying location of Texas. See it live [here]
 Please email 
 
 ## Known Issues:
-..* The “Powered by Bing” and “Explore more on Covid-19 tracker” are new additions to the wisget and the strings ares still being translated into the languages we support. 
+The “Powered by Bing” and “Explore more on Covid-19 tracker” are new additions to the wisget and the strings ares still being translated into the languages we support. 
 
