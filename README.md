@@ -1,6 +1,6 @@
 
 # Bing COVID-19 Widget 
-As the coronavirus impacts the world, we recognize the need to share the latest information outside of Bing. This widget will allow any site to easily add an outbreak map, the latest case counts, and a chart displaying the spread over time. These elements are modular, giving sites the ability to customize them. Learn more on how to embed and customize the widget for your needs below.  
+As the coronavirus impacts the world, we recognize the need to share the latest information outside of Bing. This widget will allow any site to easily add an outbreak map, the latest case counts, and a chart displaying the spread over time. These elements are modular, giving sites the ability to customize the experience. Learn more on how to embed and customize the widget for your needs below.  
 
 **By using the widget, you agree to be subject to the terms of use [listed here](../master/LICENSE)**
 
