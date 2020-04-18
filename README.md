@@ -1,14 +1,14 @@
 
 # Bing COVID-19 Widget 
-As the coronavirus impacts the world, we recognize the need to share the latest information outside of Bing. This widget will allow any site to easily add an outbreak map, the latest case counts, and a chart displaying the spread over time. These elements are modular, giving sites the ability to customize them. 
+As the coronavirus impacts the world, we recognize the need to share the latest information outside of Bing. This widget will allow any site to easily add an outbreak map, the latest case counts, and a chart displaying the spread over time. These elements are modular, giving sites the ability to customize them. Learn more on how to embed and customize the widget for your needs below.  
 
 **By adding the widget to your site, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
 
-## How can I implement the widget on my site?
+## How can I embed the widget on my site?
 You will simply need to add two lines of HTML code, a ```<div>``` including various widget parameters, and a ```<script>```. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. 
 
 ## How do I select a widget configuration?
-You are able to select your widget configuration with the data-type parameter. We support the following values:
+You are able to select your widget configuration with the ```data-type``` parameter. We support the following values:
 
 | Description   | ```data-type``` Parameter |
 | --------- |:---------------------:|
@@ -63,8 +63,6 @@ The ```data-market``` and ```data-language``` parameters control the market and 
 The ```data-location-id``` parameter allows you to set location based on a set of available ```“/Country/Region"``` combinations. A list of the supported locations is available in the [AllLocation.txt file](../blob/master/AllLocation.txt). If no ```data-location-id``` is set, the default is the global view. You can also select a global view for the data-location-id parameter with a vlaue of ```"/"```. 
 
 In the future we also plan to support location selection by latitude and longitude values and will update this readme once it is available. 
-
-**By adding the widget to your site, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
 
 ## Widget examples
 
@@ -139,3 +137,10 @@ Stats and Trends widget example specifying location of Texas. See it live [here]
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
+
+## How can I report issues I have found with the widget?
+Please email 
+
+## Know Issues:
+..*
+
