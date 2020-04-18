@@ -143,12 +143,11 @@ Stats and Trends widget example specifying location of Texas. See it live [here]
 Please email bingcovidwidget@microsoft.com with any issue reports. 
 
 ## Known Issues:
-The “Powered by Bing” and “Explore more on Covid-19 tracker” are new additions to the wisget and the strings ares still being translated into the languages we support. 
+* The “Powered by Bing” and “Explore more on Covid-19 tracker” are new additions to the wisget and the strings ares still being translated into the languages we support. 
+* There is additional white colored padding around the widget that can be seen on sites with a colored backgound. 
 
 ## Where is the widget data from and how often does it update?
 The widget refreshes approximately every ten minutes with data from an aggregate of [sources](https://help.bing.microsoft.com/#apex/18/en-us/10024) Bing is consuming. Data may not change with every refresh. 
 
 ## Can I download the source data?
 Bing is making our COVID-19 available for educational and academic purposes. Get the data and learn more at the [Bing COVID-19 Data GitHub page](https://github.com/microsoft/Bing-COVID-19-Data). 
-
-
