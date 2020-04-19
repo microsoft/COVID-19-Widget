@@ -1,6 +1,6 @@
 
 # Bing COVID-19 Widget 
-As the coronavirus impacts the world, we recognize the need to share the latest information outside of Bing. This widget will allow any site to easily add an outbreak map, the latest case counts, and a chart displaying the spread over time. These elements are modular, giving sites the ability to customize the experience. Learn more on how to embed and customize the widget for your needs below.  
+As the coronavirus impacts the world, we recognize the need to share the latest information outside of Bing. This widget will allow any site to easily add an outbreak map, the latest case counts, and a chart displaying the spread over time. These elements are modular, giving sites the ability to customize the experience. The wisget is also reponsive, adjusting automatically to desktop and mobile form facors. Learn more on how to embed and customize the widget for your needs below.  
 
 **By using the widget, you agree to be subject to the terms of use [listed here](../master/LICENSE)**
 
@@ -64,6 +64,9 @@ The ```data-market``` and ```data-language``` parameters control the market and 
 The ```data-location-id``` parameter allows you to set location based on a set of available ```“/Country/Region"``` combinations. A list of the supported locations is available in the [AllLocations.txt file](../master/AllLocations.txt). If no ```data-location-id``` is set, the default is the global view. You can also select a global view for the data-location-id parameter with a vlaue of ```"/"```. 
 
 In the future we also plan to support location selection by latitude and longitude values and will update this readme once it is available. 
+
+## How do I select the widget size?
+The widget is responsive, automatically resizing depending on the size of the parent HTML element. No additional settings control the width of the widget. 
 
 ## Widget examples
 
@@ -150,4 +153,4 @@ Please email bingcovidwidget@microsoft.com with any issue reports.
 The widget refreshes approximately every ten minutes with data from an aggregate of [sources](https://help.bing.microsoft.com/#apex/18/en-us/10024) Bing is consuming. Data may not change with every refresh. 
 
 ## Can I download the source data?
-Bing is making our COVID-19 available for educational and academic purposes. Get the data and learn more at the [Bing COVID-19 Data GitHub page](https://github.com/microsoft/Bing-COVID-19-Data). 
+Bing is making our COVID-19 data available for educational and academic purposes. Get the data and learn more at the [Bing COVID-19 Data GitHub page](https://github.com/microsoft/Bing-COVID-19-Data). 
