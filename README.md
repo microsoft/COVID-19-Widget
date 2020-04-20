@@ -2,7 +2,7 @@
 # Bing COVID-19 Widget 
 As the coronavirus impacts the world, we recognize the need to share the latest information outside of Bing. This widget will allow any site to easily add an outbreak map, the latest case counts, and a chart displaying the spread over time. These elements are modular, giving sites the ability to customize the experience. The widget is also reponsive, adjusting automatically to desktop and mobile form facors. Learn more on how to embed and customize the widget for your needs below.  
 
-**By using the widget, you agree to be subject to the terms of use [listed here](../master/LICENSE)**
+**By using the widget, you agree to be subject to the terms of use [listed here](../master/LICENSE)**.
 
 ## How can I embed the widget on my site?
 You will simply need to add two lines of HTML code, a ```<div>``` including various widget parameters, and a ```<script>```. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. Note that the **Trends Chart Module** has limited market support at this time. 
@@ -70,18 +70,18 @@ The widget is responsive, automatically resizing depending on the size of the pa
 
 ## Widget examples
 
-**By using the widget, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**
+**By using the widget, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**.
 
 
 ### Widget Default
-See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/78/)
+See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/78/).
 ```
 <div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
 
-Default widget example setting language and market to Japanese in Japan. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/77/)
+Default widget example setting language and market to Japanese in Japan. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/77/).
 ```
 <div class="bingwidget" data-type="covid19" data-market="ja-jp" data-language="ja-jp"></div>
   
@@ -90,7 +90,7 @@ Default widget example setting language and market to Japanese in Japan. See it 
 
 ### Widget with only Map
 
-See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/74/)
+See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/74/).
 
 ```
 <div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us"></div>
@@ -98,7 +98,7 @@ See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/74/)
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
 
-Map only widget example specifying location of Italy. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/73/)
+Map only widget example specifying location of Italy. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/73/).
 ```
 <div class="bingwidget" data-type="covid19_map" data-market="en-us" data-language="en-us" data-location-id="/Italy"></div>
   
@@ -106,7 +106,7 @@ Map only widget example specifying location of Italy. See it live [here](https:/
 ```
 
 ### Widget with only Trends
-See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/70/)
+See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/70/).
 ```
 <div class="bingwidget" data-type="covid19_trends" data-market="en-us" data-language="en-us"></div>
   
@@ -114,13 +114,13 @@ See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/70/)
 ```
 
 ### Widget with Stats and Map
-See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/66/)
+See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/66/).
 ```
 <div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
-Stats and Map widget example specifying location of United States. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/68/)
+Stats and Map widget example specifying location of United States. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/68/).
 ```
 <div class="bingwidget" data-type="covid19_stats_map" data-market="en-us" data-language="en-us" data-location-id="/United States"></div>
   
@@ -129,13 +129,13 @@ Stats and Map widget example specifying location of United States. See it live [
 
 
 ### Widget with Stats and Trends
-See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/64/)
+See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/64/).
 ```
 <div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
 ```
-Stats and Trends widget example specifying location of Texas. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/63/)
+Stats and Trends widget example specifying location of Texas. See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/63/).
 ```
 <div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us" data-location-id="/United States/Texas"></div>
   
