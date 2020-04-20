@@ -68,7 +68,7 @@ The widget is responsive, automatically resizing depending on the size of the pa
 
 ## Widget examples
 
-**By using the widget, you agree to be subject to the terms of use [listed here](../blob/master/LICENSE)**.
+**By using the widget, you agree to be subject to the terms of use [listed here](../master/LICENSE)**.
 
 
 ### Widget Default
