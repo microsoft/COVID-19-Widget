@@ -61,7 +61,7 @@ The ```data-market``` and ```data-language``` parameters control the market and 
 ## How do I specify a location for the widget to load?
 The ```data-location-id``` parameter allows you to set location based on a set of available ```“/Country/Region"``` combinations. Setting the ```data-location-id``` will update all modules with the specified location's data. A list of the supported locations is available in the [AllLocations.txt file](../master/AllLocations.txt). If no ```data-location-id``` is set, the default is the global view. You can also select a global view for the ```data-location-id``` parameter with a value of ```"/"```.  
 
-In the future we also plan to support location selection by latitude and longitude values and will update this readme once it is available. 
+The Bing COVID-19 Widget team is also exploring adding support for location selection by latitude and longitude values. Please email bingcovidwidget@microsoft.com if this is a desired feature for your sites' widget implementation. 
 
 ## How do I select the widget size?
 The widget is responsive, automatically resizing depending on the size of the parent HTML element. No additional settings control the width of the widget. 
