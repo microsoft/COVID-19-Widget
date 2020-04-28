@@ -4,6 +4,17 @@ As the coronavirus impacts the world, we recognize the need to share the latest 
 
 **By using the widget, you agree to be subject to the terms of use [listed here](../master/LICENSE)**.
 
+Example code:
+```
+<div class="bingwidget" data-type="covid19" data-market="en-us" data-language="en-us"></div>
+  
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+```
+Example experience:
+See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/78/).
+
+
+
 ## How can I embed the widget on my site?
 You will simply need to add two lines of HTML code, a ```<div>``` including various widget parameters, and a ```<script>```. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. Note that the **Trends Chart Module** has limited market support at this time. 
 
@@ -17,6 +28,9 @@ You are able to select your widget configuration with the ```data-type``` parame
 | Trends – includes only the Trends Chart module | covid19_trends |
 | Stats and Map – includes the Data Stats module and Outbreak Map module | covid19_stats_map |
 | Stats and Trends – includes the Data Stats module and Trends Chart module | covid19_stats_trends |
+| Modules - allowing for further customizations of multiple modules | covid19_modules |
+
+
 
 
 In addition to these ```data-type``` options, you can also stack multiple widget on top of each other by including multiple ```<div>``` lines and only one ```<script>```. 
@@ -138,6 +152,27 @@ Stats and Trends widget example specifying location of Texas. See it live [here]
 <div class="bingwidget" data-type="covid19_stats_trends" data-market="en-us" data-language="en-us" data-location-id="/United States/Texas"></div>
   
 <script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+
+```
+
+### Widget with Multiple Modules Examples
+See it live [here](https://jsfiddle.net/swarups/sx94mjL6/32/).
+```
+
+<p>Covid Modules Stats, Map, Trends</p>
+<div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "stats", "location-id":"/United States/New York",  "location-latlon":"48.84,-43.59"}, {"_type": "stats", "location-id":"/United States"}, {"_type": "stats", "location-id":"/"}, {"_type": "trends", "location-id":"/United States",  "data-location-latlon":"48.84,-43.59"}, {"_type": "map", "location-id":"/United States/New York",  "location-latlon":"48.84,-43.59"}]'></div>
+
+<p>Covid Modules Stats</p>
+<div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "stats", "location-id":"/Spain"}, {"_type": "stats", "location-id":"/Italy"}, {"_type": "stats", "location-id":"/United States"},  {"_type": "stats", "location-id":"/"}]'></div>
+
+<p>Covid Modules Map</p>
+<div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "map", "location-id":"/United States/New York",  "location-latlon":"48.84,-43.59"}]'></div>
+
+<p>Covid Modules Trends</p>
+<div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "trends", "location-id":"/United States"}]'></div>
+
+<script src="//www.bing.com/widget/bootstrap.answer.js" async=""></script>
+
 ```
 
 ## How can I report issues found with the widget?
