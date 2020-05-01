@@ -160,15 +160,14 @@ Stats and Trends widget example specifying location of Texas. See it live [here]
 ### Widget with Multiple Modules Examples
 See it live [here](https://jsfiddle.net/swarups/sx94mjL6/32/).
 ```
-
 <p>Covid Modules Stats, Map, Trends</p>
-<div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "stats", "location-id":"/United States/New York",  "location-latlon":"48.84,-43.59"}, {"_type": "stats", "location-id":"/United States"}, {"_type": "stats", "location-id":"/"}, {"_type": "trends", "location-id":"/United States",  "data-location-latlon":"48.84,-43.59"}, {"_type": "map", "location-id":"/United States/New York",  "location-latlon":"48.84,-43.59"}]'></div>
+<div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "stats", "location-id":"/United States/New York"}, {"_type": "stats", "location-id":"/United States"}, {"_type": "stats", "location-id":"/"}, {"_type": "trends", "location-id":"/United States"}, {"_type": "map", "location-id":"/United States/New York"}]'></div>
 
 <p>Covid Modules Stats</p>
 <div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "stats", "location-id":"/Spain"}, {"_type": "stats", "location-id":"/Italy"}, {"_type": "stats", "location-id":"/United States"},  {"_type": "stats", "location-id":"/"}]'></div>
 
 <p>Covid Modules Map</p>
-<div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "map", "location-id":"/United States/New York",  "location-latlon":"48.84,-43.59"}]'></div>
+<div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "map", "location-id":"/United States/New York"}]'></div>
 
 <p>Covid Modules Trends</p>
 <div class="bingwidget" data-type="covid19_modules" data-modules='[{"_type": "trends", "location-id":"/United States"}]'></div>
