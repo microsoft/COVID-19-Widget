@@ -13,8 +13,9 @@ Example code:
 Example experience:
 See it live [here](https://jsfiddle.net/covidwidget/xby7f2h6/78/).
 
-![alt text][screenshot]
-[screenshot]: https://github.com/microsoft/COVID-19-Widget/blob/master/WidgetScreenshot.png "screenshot"
+![alt text][logo]
+
+[logo]: https://github.com/microsoft/COVID-19-Widget/blob/master/WidgetScreenshot.png "screenshot"
 
 ## How can I embed the widget on my site?
 You will simply need to add two lines of HTML code, a ```<div>``` including various widget parameters, and a ```<script>```. At the bottom of this readme are code examples for the various supported configurations. Each configuration is a combination of three supported modules: an **Outbreak Map Module** showing the worldwide spread of the virus, a **Data Stats Module**, which displays the case count information for a given location, and a **Trends Chart Module** showing the spread of the virus in a location over time. Note that the **Trends Chart Module** has limited market support at this time. 
