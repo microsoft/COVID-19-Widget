@@ -54,6 +54,7 @@ The ```data-market``` and ```data-language``` parameters control the market and 
 | Spain* | es-ES |
 | UK | en-GB |
 | US | en-US |
+| CN | zh-CN |
 
 * Markets with an asterisk (*) do not support the ```data-type``` of ```covid19_stats_trends``` currently. 
 
@@ -65,14 +66,14 @@ The ```data-market``` and ```data-language``` parameters control the market and 
 | English in India	| en-IN |
 | English in UK | en-GB |
 | English in US | en-US | 
-| French  | 	fr-FR |
-| French in Canada  | 	fr-CA |
+| French  | fr-FR |
+| French in Canada  | fr-CA |
 | German | 	de-DE |
-| Italian | 	it-IT |
-| Japanese | 	ja-JP |
+| Italian | it-IT |
+| Japanese | ja-JP |
 | Korean | 	ko-KR |
-| Spanish | 	es-ES |
-
+| Spanish | es-ES |
+| Chinese Simplefied | zh-CN |
 
 ## How do I specify a location for the widget to load?
 The ```data-location-id``` parameter allows you to set location based on a set of available ```“/Country/Region"``` combinations. Setting the ```data-location-id``` will update all modules with the specified location's data. A list of the supported locations is available in the [AllLocations.txt file](../master/AllLocations.txt). If no ```data-location-id``` is set, the default is the global view. You can also select a global view for the ```data-location-id``` parameter with a value of ```"/"```.  
